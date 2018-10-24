@@ -19,7 +19,8 @@
   "bugs": {
     "url": "https://github.com/axosoft/node-simple-file-watcher/issues"
   },
-  "files": ["lib", "src", "includes", "binding.gyp"],
+  "bin": "nsfw.js",
+  "files": ["nsfw.js", "lib", "src", "includes", "binding.gyp"],
   "homepage": "https://github.com/axosoft/node-simple-file-watcher",
   "dependencies": {
     "fs-extra": "^7.0.0",
